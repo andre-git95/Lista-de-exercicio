@@ -6,14 +6,14 @@ let resultado;
 if (soma <= 100) {
     resultado = soma * 3;
     document.getElementById("resultado").textContent =
-        "Soma = $(soma). Como é menor ou igual a 100, multiplicou por 3. Resultado: $(resultado)";
+        `Soma = ${soma}. Como é menor ou igual a 100, multiplicou por 3. Resultado: ${resultado}`;
 } else {
     resultado = soma * 5;
     document.getElementById("resultado").textContent =
-        "Soma = $(soma). Como é maior que 100, multiplicou por 5. Resultado: $(resultado)";
+        `Soma = ${soma}. Como é maior que 100, multiplicou por 5. Resultado: ${resultado}`;
 }
 
 document.getElementById("numero1").textContent =
-    "Número 1: $(numero1)";
+    `Número 1: ${numero1}`;
 document.getElementById("numero2").textContent =
-    "Número 2: $(numero2)";
+    `Número 2: ${numero2}`;
